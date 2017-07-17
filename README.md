@@ -1,3 +1,8 @@
+# How to run
+```
+$silk -silk.url=https://jsonplaceholder.typicode.com api.md
+```
+
 # List of services
 
 
