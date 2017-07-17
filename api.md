@@ -2,15 +2,13 @@
 
 ## GET /posts/1
 ดึงข้อมูล activity ทั้งหมดของผู้ใช้งานคนที่ 1
-dfsdfsdfsdf
-sdfsdf
 
 ===
 
 ### Response with success
 
 * Status: 200
-* Data.userId: 1
+* Data.userId: 1 // The {id} of Silk.
 
 ```json
 {
@@ -21,10 +19,16 @@ sdfsdf
 }
 ```
 
-## GET /posts/1/comments
+## GET /posts/{id}/comments
 
 ===
 ### Response
+
+* Data[0].postId: {id}
+* Data[1].postId: {id}
+* Data[2].postId: {id}
+* Data[3].postId: {id}
+* Data[4].postId: {id}
 
 ```json
 [
