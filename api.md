@@ -8,7 +8,7 @@
 ### Response with success
 
 * Status: 200
-* Data.userId: 1 // The {id} of Silk.
+* Data.userId: 1 // The {id} of user.
 
 ```json
 {
